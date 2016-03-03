@@ -2,6 +2,9 @@ html{
   background-color: bisque;
   font-family: roboto, 'sans-serif', tahoma;
 }
+header{
+  border-bottom: 1px solid black;
+}
 project_title{
   color: black;
 }
