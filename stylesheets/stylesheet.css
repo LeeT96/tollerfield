@@ -4,6 +4,7 @@ html{
 }
 header{
   border-bottom: 1px solid black;
+  background-color: lightyellow;
 }
 project_title{
   color: black;
