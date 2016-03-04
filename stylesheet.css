@@ -35,6 +35,6 @@ h1.project_title{
 	font-size: 125%;
 }
 
-::selection{
+::selection, ::-moz-selection{
 	background-color: red;
 }
