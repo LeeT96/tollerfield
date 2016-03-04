@@ -66,3 +66,15 @@ h1.project_title{
 .footer_content{
 	text-align: right;
 }
+.sizes{
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s;
+}
+
+.move:hover{
+    width: 90px;
+    height: 90px;
+}
