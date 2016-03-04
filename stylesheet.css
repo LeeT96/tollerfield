@@ -79,10 +79,8 @@ h1.project_title{
   font-size: 120%;
 }
 .styles{
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-	-webkit-transition: color 0.5s, -webkit-transform 2s; /* Safari */
-    transition: color 0.5s;
+	-webkit-transition: color 0.5s ease;
+	transition: color 0.5s ease;
 }
 .styles:hover {
 	color:blue;
