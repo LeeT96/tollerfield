@@ -84,4 +84,5 @@ h1.project_title{
 }
 .styles:hover {
 	color:blue;
+	font-weight: bold;
 }
