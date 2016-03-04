@@ -75,6 +75,6 @@ h1.project_title{
     transition: font-size 2s;
 }
 
-.move:hover{
+.sizes:hover{
   font-size: 110%;
 }
