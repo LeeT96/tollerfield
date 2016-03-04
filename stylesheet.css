@@ -78,3 +78,11 @@ h1.project_title{
 .sizes:hover{
   font-size: 120%;
 }
+.styles {
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+.styles:hover {
+	color:blue;
+	font-family: tahoma;
+}
