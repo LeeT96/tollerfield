@@ -81,8 +81,12 @@ h1.project_title{
 .styles{
 	-webkit-transition: color 0.5s ease;
 	transition: color 0.5s ease;
+	-webkit-transition-delay: font-family 2s;
+	transition-delay: font-family 2s;
 }
+
 .styles:hover {
 	color:blue;
 	font-weight: bold;
+	font-family: "comic sans";
 }
