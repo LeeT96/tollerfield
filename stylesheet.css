@@ -67,14 +67,14 @@ h1.project_title{
 	text-align: right;
 }
 .sizes{
-    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
+	font-size: 100%;
+    -webkit-transition: font-size 2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 2s;
 
--webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
-    transition: width 2s, height 2s;
+-webkit-transition: font-size 2s, -webkit-transform 2s; /* Safari */
+    transition: font-size 2s;
 }
 
 .move:hover{
-    width: 90px;
-    height: 90px;
+  font-size: 110%;
 }
