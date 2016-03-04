@@ -68,13 +68,13 @@ h1.project_title{
 }
 .sizes{
 	font-size: 100%;
-    -webkit-transition: font-size 2s; /* For Safari 3.1 to 6.0 */
-    transition: font-size 2s;
+    -webkit-transition: font-size 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.5s;
 
--webkit-transition: font-size 2s, -webkit-transform 2s; /* Safari */
-    transition: font-size 2s;
+-webkit-transition: font-size 0.5s, -webkit-transform 2s; /* Safari */
+    transition: font-size 0.5s;
 }
 
 .sizes:hover{
-  font-size: 110%;
+  font-size: 120%;
 }
