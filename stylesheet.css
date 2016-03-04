@@ -80,10 +80,8 @@ h1.project_title{
 }
 .styles{
 	font-family: 'Roboto Condensed';
-	-webkit-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-	-webkit-transition: font-family 1s ease, -webkit-transform 1s;
-	transition: font-family 1s ease;
+	-webkit-transition: color 0.5s ease, font-family 3s ease-in-out;
+	transition: color 0.5s ease, font-family 3s ease-in-out;
 }
 
 .styles:hover {
