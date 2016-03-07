@@ -60,11 +60,11 @@ h1.project_title{
 .by_name{
 	color: white;
 	font-weight: bold;
-	opacity: 1;
+	opacity: 1 !important;
 }
 .by_name:hover{
 	color:red;
-	opacity: 1;
+	opacity: 1 !important;
 	
 }
 .footer_content{
