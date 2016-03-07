@@ -48,10 +48,12 @@ h1.project_title{
 	color: white;
 	font-weight: bold;
 	opacity: 1.0 !important;
+	position: relative;
 }
 .by_name:hover{
 	color:red;
 	opacity: 1.0 !important;
+	position: relative;
 	
 }
 .project_footer {
