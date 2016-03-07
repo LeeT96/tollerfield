@@ -66,9 +66,11 @@ h1.project_title{
 	left:0;
 	opacity: 0.5;
 	-webkit-transition: opacity 1s;
+	-webkit-transition-delay: 3s;
 }
 .project_footer:hover{
 	opacity:1;
+	-webkit-transition-delay: 0s;
 }
 .footer_content{
 	text-align: right;
