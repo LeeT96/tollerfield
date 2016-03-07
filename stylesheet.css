@@ -55,6 +55,7 @@ h1.project_title{
 	position:absolute;
 	bottom:0;
 	left:0;
+	opacity: 0.5;
 }
 .by_name{
 	color: white;
