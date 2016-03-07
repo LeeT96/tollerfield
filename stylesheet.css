@@ -31,7 +31,9 @@ h1.project_title{
 }
 .content{
 	margin-top: 135px;
-	margin: 0 auto;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	margin-bottom:0 auto;
 	width: 60%;
 }
 .article_title{
