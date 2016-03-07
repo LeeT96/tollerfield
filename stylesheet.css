@@ -82,6 +82,7 @@ h1.project_title{
 	height:100px;
 	bottom:0;
 	left:0;
+	text-align: center;
 }
 .footer_title:hover{
 	opacity: 0;
