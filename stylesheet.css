@@ -55,6 +55,7 @@ h1.project_title{
 	
 }
 .project_footer {
+	overflow: hidden;
 	border-top: 1px solid black;
 	background: -webkit-linear-gradient(#232526, #414345);
 	background: -moz-linear-gradient(#232526, #414345);
