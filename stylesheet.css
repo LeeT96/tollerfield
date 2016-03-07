@@ -60,9 +60,12 @@ h1.project_title{
 .by_name{
 	color: white;
 	font-weight: bold;
+	opacity: 1;
 }
 .by_name:hover{
 	color:red;
+	opacity: 1;
+	
 }
 .footer_content{
 	text-align: right;
