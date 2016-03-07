@@ -47,12 +47,9 @@ h1.project_title{
 .by_name{
 	color: white;
 	font-weight: bold;
-	position: relative;
 }
 .by_name:hover{
 	color:red;
-	position: relative;
-	
 }
 .project_footer {
 	border-top: 1px solid black;
