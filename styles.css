@@ -15,8 +15,8 @@ body{
 .header{
 	border-bottom: 1px solid black;
 	 background: -webkit-linear-gradient(#313E50, #2c3e50);
-	 background: -moz-linear-gradient(#2980b9, #2c3e50);
-	 background: -ms-linear-gradient(#2980b9, #2c3e50);
+	 background: -moz-linear-gradient(#313E50, #2c3e50);
+	 background: -ms-linear-gradient(#313E50, #2c3e50);
 	width: 100%;
 	left: 0px;
 	height: 130px;
@@ -55,7 +55,9 @@ h1.project_title{
 .navbar>ul>li>a{
 	color: white;
 	text-decoration: none;
-	transition: color 0.5s ease-in-out, font-size 0.1s ease-in-out;
+	-ms-transition: color 0.5s ease-in-out, font-size 0.1s ease-in-out;
+	-webkit-transition: color 0.5s ease-in-out, font-size 0.1s ease-in-out;
+	-moz-transition: color 0.5s ease-in-out, font-size 0.1s ease-in-out;
 	width: 50px;
 	padding: 5px;
 	margin: 5px;
@@ -79,8 +81,12 @@ h1.project_title{
 }
 article>img{
 	width: 300px;
-	transition: width 0.5s ease-in-out;
-	transition-delay: 0.3s
+	-webkit-transition: width 0.5s ease-in-out;
+	-ms-transition: width 0.5s ease-in-out;
+	-moz-transition: width 0.5s ease-in-out;
+	-webkit-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+	-moz-transition-delay: 0.3s;
 }
 article>img:hover{
 	width: 800px;
@@ -111,12 +117,18 @@ article>ul{
 	left:0;
 	opacity: 0.2;
 	-webkit-transition: opacity 1s, height 1s;
+	-ms-transition: opacity 1s, height 1s;
+	-moz-transition: opacity 1s, height 1s;
+	-ms-transition-delay: 3s;
+	-moz-transition-delay: 3s;
 	-webkit-transition-delay: 3s;
 }
 .project_footer:hover{
 	opacity:1;
 	height: 100px;
 	-webkit-transition-delay: 0.125s;
+	-ms-transition-delay: 0.125s;
+	-moz-transition-delay: 0.125s;
 }
 .project_footer>h3{
 	color:red;
@@ -141,8 +153,8 @@ svg{
 .sizes{
 	font-size: 100%;
     -webkit-transition: font-size 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: font-size 0.5s;
-
+    -moz-transition: font-size 0.5s;
+    -ms-transition: font-size 0.5s;
 -webkit-transition: font-size 0.5s, -webkit-transform 2s; /* Safari */
     transition: font-size 0.5s;
 }
@@ -154,6 +166,7 @@ svg{
 	font-family: 'Roboto Condensed';
 	-webkit-transition: color 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
 	-moz-transition: color 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
+	-ms-transition: color 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
 }
 
