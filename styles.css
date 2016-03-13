@@ -97,9 +97,11 @@ article>ul{
 
 ::selection{
 	background-color: red;
+	color: white;
 }
 ::-moz-selection{
 	background-color:red;
+	color: white;
 }
 .by_name{
 	color: white;
