@@ -23,8 +23,6 @@ body{
 	margin: 0;
 	top: 26px;
 	color: white;
-	position: fixed;
-	overflow: hidden;
 }
 h1.project_title{
   color: white;
