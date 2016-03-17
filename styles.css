@@ -100,11 +100,19 @@ article>ul{
 }
 
 ::selection{
-	background-color: red;
+	background-color: orange;
 	color: white;
 }
 ::-moz-selection{
-	background-color:red;
+	background-color:orange;
+	color: white;
+}
+::-ms-selection{
+	background-color: orange;
+	color: white;
+}
+::-webkit-selection{
+	background-color: orange;
 	color: white;
 }
 .by_name{
