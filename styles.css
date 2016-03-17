@@ -21,8 +21,9 @@ body{
 	left: 0px;
 	height: 100px;
 	margin: 0;
-	padding-top:27px;
-	top: 27px;
+	margin-top: 25px;
+	padding-top:10px;
+	top: 130px;
 	color: white;
 }
 h1.project_title{
@@ -37,19 +38,24 @@ h1.project_title{
 .navbar{
 	text-align: center;
 	width: 100%;
-	background-color: #313E50;
-	height: 25px;
+	/*background-color: #313E50;*/
+	background-color: orange;
+	height: 35px;
 	position: fixed;
+	overflow: visible;
+	top: 0px;
 }
 .navbar>ul{
 	list-style-type: none;
 	display: inline;
 	height: 25px;
+	padding-top: 50px;
 }
 .navbar>ul>li{
 	display: inline-block;
 	padding: -4px;
 	height: 25px;
+	padding-top: 5px;
 }
 .navbar>ul>li>a{
 	color: white;
@@ -69,7 +75,7 @@ h1.project_title{
 
 
 .content{
-	padding-top: 135px;
+	padding-top: 10px;
 	margin: 0 auto;
 	width: 60%;
 	padding-bottom: 100px;
